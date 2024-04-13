@@ -616,6 +616,7 @@ struct pna_main_input_metadata_t {
     PassNumber_t             pass;
     bool                     loopedback;
     Timestamp_t              timestamp;
+    Timestamp_t              timestamp1;
     ParserError_t            parser_error;
     ClassOfService_t         class_of_service;
     // See comments for field input_port in struct
